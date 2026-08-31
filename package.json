@@ -1,0 +1,11 @@
+{
+  "name": "patient-transfer-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "bash scripts/build.sh",
+    "smoke": "node scripts/smoke-test.mjs",
+    "validate": "node scripts/validate-artifact.mjs"
+  }
+}

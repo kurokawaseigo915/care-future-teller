@@ -1,0 +1,19 @@
+dist/
+site.tar.gz
+
+# Videos uploaded through "Load my video" and their extracted keypoints
+assets/uploads/
+
+# Source footage may contain identifiable people; keep it local.
+assets/sample-transfer.mp4
+*.mov
+
+# Python virtualenv for the pose-extraction script (1+ GB, recreate locally)
+.venv-pose/
+__pycache__/
+*.pyc
+
+# OS / editor / local tool settings
+.DS_Store
+node_modules/
+.claude/settings.local.json

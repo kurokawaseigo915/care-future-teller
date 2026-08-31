@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "rm -rf public && mkdir -p public/assets && cp -R assets/. public/assets/ && printf 'MIRAI assets ready\\n' > public/status.txt",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api"
+    }
+  ]
+}
